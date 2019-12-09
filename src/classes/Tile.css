@@ -1,0 +1,19 @@
+.tile {
+    border: 1px solid black;
+    
+    max-height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    
+    cursor: pointer;
+    outline: none;
+    user-select: none;
+}
+
+.tile::before {
+    content: "";
+    padding-bottom: 100%;
+    box-sizing: border-box;
+}

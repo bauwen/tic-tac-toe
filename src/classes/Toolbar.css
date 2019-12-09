@@ -1,0 +1,19 @@
+.toolbar {
+    height: 60px;
+    background-color: rgb(138, 59, 59);
+    color: white;
+}
+
+.toolbar-item {
+    display: inline-block;
+    margin: 8px;
+}
+
+.text-button {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.text-button:hover {
+    color: yellow;
+}
